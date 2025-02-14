@@ -37,8 +37,8 @@ decision_tree = {
         "non": "La douleur est elle insupportable ?"
     },
     "La douleur est-elle supportable ?": {
-        "oui": "Vous aurez 1h d'attente max.",
-        "non": "Vous aurez 10 min d'attente max."
+        "oui": "Vous aurez 1h d'attente.",
+        "non": "Vous aurez 10 min d'attente."
     },
 }
 
