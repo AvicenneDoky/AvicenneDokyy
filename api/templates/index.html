@@ -10,14 +10,15 @@
 <body>
 <video src="../static/images/Sans titre (1080 x 540 px) (1080 x 220 px) (540 x 220 px).mp4" type="video/mp4" autoplay loop muted class="video"></video>
 <div class="question">
-    <h1>Le patient a t'il des antécédents ?</h1>
+    <h1 id="question">Le patient a t'il des antécédents ?</h1>
 </div>
 <div class="buttonn">
-    <button class="button" >OUI</button>
-    <button class="button2">NON</button> 
+    <button id="yesBtn" class="button" onclick="sendAnswer('oui')">OUI</button>
+    <button id="noBtn" class="button2" onclick="sendAnswer('non')">NON</button> 
+    <button id="restartBtn" style="display: none;" onclick="restartChat()">Recommencer</button>
 </div>
 <div class="answer-block">
-    <h1 class="answer">Vous aurez 0 min d'attente.</h1>
+    <h1 id="response" class="answer">Vous aurez 0 min d'attente.</h1>
 </div>
 
 
@@ -47,7 +48,7 @@
 
         function isFinalResponse(response) {
             let finalResponses = [
-                "Consulte un médecin.", "Prends un antidouleur et repose-toi.",
+                "Vous aurez 0 min d'attente", "Prends un antidouleur et repose-toi.",
                 "Bois de l’eau et repose-toi.", "Essaie de dormir plus tôt ce soir.",
                 "Fais une pause et repose tes yeux.", "Bois un grand verre d’eau.",
                 "Bois de l’eau et surveille tes symptômes.", "Tout va bien !"
@@ -56,7 +57,7 @@
         }
 
         function restartChat() {
-            document.getElementById("question").innerText = "As-tu de la fièvre ?";
+            document.getElementById("question").innerText = "Le patient a t'il des antécédents ?";
             document.getElementById("response").innerText = "";
             document.getElementById("yesBtn").disabled = false;
             document.getElementById("noBtn").disabled = false;
