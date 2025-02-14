@@ -20,7 +20,7 @@ decision_tree = {
         "oui": "La douleur est elle supportable ?",
         "non": "Vous aurez O minutes d'attente."
     },
-    "La douleur est-elle supportable ? ": {
+    "Est-ce douloureux ?": {
         "oui": "Vous aurez 1h d'attente.",
         "non": "Vous aurez 10 min d'attente. "
     }, 
@@ -28,7 +28,7 @@ decision_tree = {
         "oui": "La douleur est elle supportable ?",
         "non": "Vous aurez 0 min d'attente"
     },
-    "La douleur est-elle supportable ?": {
+    "La douleur est-elle insupportable ?": {
         "oui": "Vous aurez 1h d'attente.",
         "non": "Vous aurez 10 min d'attente"
     },
