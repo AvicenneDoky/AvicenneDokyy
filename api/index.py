@@ -18,7 +18,7 @@ decision_tree = {
     },
     "La fréquence cardiaque est elle entre 5O et 70 BPM ?": {
         "oui": "La douleur est-elle supportable ?",
-        "non": "Vous aurez O min d'attente."
+        "non": "Vous aurez 0 min d'attente."
     },
     "Est-ce douloureux ?": {
         "oui": "Vous aurez 1h d'attente.",
