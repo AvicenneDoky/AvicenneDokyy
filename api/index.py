@@ -18,10 +18,10 @@ decision_tree = {
     },
     "La fréquence cardiaque est elle entre 5O et 70 BPM ?": {
         "oui": "La douleur est elle supportable ?",
-        "non": "Votre aurez O minutes d'attente max."
+        "non": "Vous aurez O minutes d'attente."
     },
     "La douleur est-elle supportable ? ": {
-        "oui": "Vous aurez 1h d'attente max.",
+        "oui": "Vous aurez 1h d'attente.",
         "non": "Vous aurez 10 min d'attente. "
     }, 
     "La fréquence cardiaque est-elle entre 60 et 100 BPM ?": {
@@ -29,12 +29,12 @@ decision_tree = {
         "non": "Vous aurez 0 min d'attente"
     },
     "La douleur est-elle supportable ?": {
-        "oui": "Vous aurez 1h d'attente max",
+        "oui": "Vous aurez 1h d'attente.",
         "non": "Vous aurez 10 min d'attente"
     },
     "La douleur persistent-elle depuis plus de 3h ?": {
-        "oui": "Vous aurez 0 min d'attente. ",
-        "non": "La douleur est elle supportable. "
+        "oui": "Vous aurez 0 min d'attente.",
+        "non": "La douleur est elle supportable ?"
     },
     "La douleur est-elle supportable ?": {
         "oui": "Vous aurez 1h d'attente max. ",

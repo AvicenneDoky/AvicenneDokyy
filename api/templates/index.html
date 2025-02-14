@@ -48,10 +48,9 @@
 
         function isFinalResponse(response) {
             let finalResponses = [
-                "Vous aurez 0 min d'attente", "Prends un antidouleur et repose-toi.",
-                "Bois de l’eau et repose-toi.", "Essaie de dormir plus tôt ce soir.",
-                "Fais une pause et repose tes yeux.", "Bois un grand verre d’eau.",
-                "Bois de l’eau et surveille tes symptômes.", "Tout va bien !"
+                "Vous aurez 0 min d'attente.", "Vous aurez 10 min d'attente.",
+                "Vous aurez 1h d'attente.", "Vous aurez 2h d'attente.",
+                "Vous aurez 4h d'attente."
             ];
             return finalResponses.includes(response);
         }
