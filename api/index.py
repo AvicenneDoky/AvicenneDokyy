@@ -10,7 +10,7 @@ CORS(app)
 decision_tree = {
     "Le patient a t'il des antécédents ?": {
         "oui": "Le patient suit-il un traitement ?",
-        "non": "La douleur persistent-elles depuis plus de 3h ?"
+        "non": "La douleur persiste-elle depuis plus de 3h ?"
     },
     "Le patient suit-il un traitement ?": {
         "oui": "La fréquence cardiaque est elle entre 5O et 70 BPM ?",
@@ -32,7 +32,7 @@ decision_tree = {
         "oui": "Vous aurez 1h d'attente.",
         "non": "Vous aurez 10 min d'attente"
     },
-    "La douleur persistent-elle depuis plus de 3h ?": {
+    "La douleur persiste-elle depuis plus de 3h ?": {
         "oui": "Vous aurez 0 min d'attente.",
         "non": "La douleur est elle supportable ?"
     },
