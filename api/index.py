@@ -13,7 +13,7 @@ decision_tree = {
         "non": "La douleur persistent-elles depuis plus de 3h ?"
     },
     "Le patient suit-il un traitement ?": {
-        "oui": "La fréquence cardiaque est elle entre 50 et 70 BPM ?",
+        "oui": "La fréquence cardiaque est elle entre 5O et 70 BPM ?",
         "non": "La fréquence cardiaque est elle entre 60 et 100 BPM ?"
     },
     "La fréquence cardiaque est elle entre 5O et 70 BPM ?": {
